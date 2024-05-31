@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root {
+    --cor-destaque: #C60001;
+    --background: #F2EAE2;
+    --cor-secundaria: #D40E45;
+    --cor-terciaria: #931F1D;
+    --cor-quarta: #FF8BA2;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: poppins, sans-serif;
+    width: 100%;
+}
+
+/* Scrollbar personalizada */
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--background);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--cor-quarta);
+    border-radius: 10px;
+}
+
+
+header {
+    background-color: var(--background);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: .5em 5em;
+    box-shadow: 0px 4px 12px 0 rgba(128, 128, 128, 0.473);
+
+}
+
+
+
+
+.logo {
+    width: 8em;
+}
+
+.iconzap {
+    width: 2.5em;
+    transition: .5s;
+}
+
+.iconzap:hover {
+    transform: scale(.9);
+}
+
+nav {
+    width: 100%;
+    gap: .5em;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.2em;
+}
+
+.nav-link {
+    color: var(--cor-destaque);
+    font-weight: 600;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.nav-link:hover {
+    color: var(--cor-quarta);
+    transform: scale(.95);
+}
+.fraseinicial{
+    Display: flex;
+    width: 100%;
+    font-weight: lighter;
+    justify-content: center;
+    align-items: center;
+    color: var(--background);
+    Padding: .9em ;
+    box-shadow: 8px 4px 15px 0 rgb(145, 138, 138);
+    Background-color: var(--cor-terciaria)
+}
+
+
+
+
+/*Secao*/
+.secao {
+    padding: 4.5em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.secao h2 {
+    color: var(--cor-destaque);
+    align-items: flex-start;
+    padding-bottom: 1em;
+}
+
+
+.secao-container {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.5em;
+}
+
+.secao-container-item {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+}
+
+.secao-container-item img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px 0 rgb(128, 128, 128);
+    margin-bottom: 1em;
+}
+
+.secao-container-item h3 {
+    color: var(--cor-terciaria);
+    font-size: 1.2em;
+}
+
+.secao-container-item h4 {
+    color: var(--cor-terciaria);
+    font-size: 1.5em;
+}
+
+
+/*Seçao RodaPe*/
+footer {
+    background-color: var(--background);
+    display: flex;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    gap: 1.5em;
+    padding: 2em;
+    justify-content: center;
+}
+
+footer a img {
+    width: 2em;
+}
+
+footer a img:hover {
+    transform: scale(.9);
+}
+
+.logo-rodape {
+    width: 6.5em;
+}
