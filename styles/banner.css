@@ -1,0 +1,21 @@
+.banner{
+    background: url(/img/banner.png);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1{
+    font-size: 7em;
+    font-family: Katibeh, sans-serif;
+    color: white;
+    font-weight: 100;
+}
+
+.banner p {
+    color: white;
+}

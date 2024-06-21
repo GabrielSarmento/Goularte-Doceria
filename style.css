@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Katibeh&display=swap');
+/* Links Arquivos CSS*/
+@import url(styles/header.css);
+@import url('styles/banner.css');
+
 
 * {
     margin: 0;
@@ -12,7 +17,7 @@
     --background: #F2EAE2;
     --cor-secundaria: #D40E45;
     --cor-terciaria: #931F1D;
-    --cor-quarta: #FF8BA2;
+    --cor-quarta: #ff8ba2;
 }
 
 html {
@@ -39,64 +44,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-header {
-    background-color: var(--background);
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
-    justify-content: space-between;
-    padding: .5em 5em;
-    box-shadow: 0px 4px 12px 0 rgba(128, 128, 128, 0.473);
 
-}
-
-
-
-
-.logo {
-    width: 8em;
-}
-
-.iconzap {
-    width: 2.5em;
-    transition: .5s;
-}
-
-.iconzap:hover {
-    transform: scale(.9);
-}
-
-nav {
-    width: 100%;
-    gap: .5em;
-    display: flex;
-    justify-content: space-evenly;
-    font-size: 1.2em;
-}
-
-.nav-link {
-    color: var(--cor-destaque);
-    font-weight: 600;
-    text-decoration: none;
-    transition: .5s;
-}
-
-.nav-link:hover {
-    color: var(--cor-quarta);
-    transform: scale(.95);
-}
-.fraseinicial{
-    Display: flex;
-    width: 100%;
-    font-weight: lighter;
-    justify-content: center;
-    align-items: center;
-    color: var(--background);
-    Padding: .9em ;
-    box-shadow: 8px 4px 15px 0 rgb(145, 138, 138);
-    Background-color: var(--cor-terciaria)
-}
 
 
 
