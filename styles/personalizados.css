@@ -1,0 +1,41 @@
+
+.pedido{
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    align-items: center;
+    width: 100%;
+}
+.pedido h2 {
+    color: black;
+}
+
+.container-person{
+display: flex;
+align-items: center;
+background-color: #ff8ba2;
+padding: 4em;
+border-radius: 20px;
+gap: 4em;
+margin: 2em;
+}
+
+.container-person img {
+    width: 370px;
+    border-radius: 25px;
+    box-shadow: 0px 4px 12px 0 rgba(128, 128, 128, 0.514);
+}
+
+
+.pedido a {
+    padding: .5em 1em;
+    background-color: #fc298b;
+    border-radius: 14px;
+    text-decoration: none;
+    color: white;
+    box-shadow: 0px 4px 12px 0 rgba(128, 128, 128, 0.514);
+}
+
+.pedido a:hover{
+    transform: scale(.95);
+}
